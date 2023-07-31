@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -18,13 +18,6 @@
     <PackageReference Include="NLog" Version="5.2.2" />
     <PackageReference Include="Quartz" Version="3.6.3" />
     <PackageReference Include="System.ServiceProcess.ServiceController" Version="7.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="HistoryContext.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>HistoryContext.Context.cs</LastGenOutput>
-    </None>
   </ItemGroup>
 
   <ItemGroup>
